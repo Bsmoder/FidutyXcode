@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4340DFB1C9B2C5900B4ED5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4340DFA1C9B2C5900B4ED5B /* main.m */; };
+		B4340DFE1C9B2C5900B4ED5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4340DFD1C9B2C5900B4ED5B /* AppDelegate.m */; };
+		B4340E011C9B2C5900B4ED5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4340E001C9B2C5900B4ED5B /* ViewController.m */; };
+		B4340E041C9B2C5900B4ED5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4340E021C9B2C5900B4ED5B /* Main.storyboard */; };
+		B4340E061C9B2C5900B4ED5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4340E051C9B2C5900B4ED5B /* Assets.xcassets */; };
+		B4340E091C9B2C5900B4ED5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4340E071C9B2C5900B4ED5B /* LaunchScreen.storyboard */; };
+		B4340E141C9B2C5900B4ED5B /* GoInvestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4340E131C9B2C5900B4ED5B /* GoInvestTests.m */; };
+		B4340E1F1C9B2C5900B4ED5B /* GoInvestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4340E1E1C9B2C5900B4ED5B /* GoInvestUITests.m */; };
+		B446D5B51D7D25C600EEAA99 /* Fiduty Logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B446D5B41D7D25C600EEAA99 /* Fiduty Logo (1).png */; };
+		B446D5CC1D7D39DB00EEAA99 /* Risk.m in Sources */ = {isa = PBXBuildFile; fileRef = B446D5CB1D7D39DB00EEAA99 /* Risk.m */; };
+		B446D5CE1D7D3F9000EEAA99 /* Fiduty Logo No words.png in Resources */ = {isa = PBXBuildFile; fileRef = B446D5CD1D7D3F9000EEAA99 /* Fiduty Logo No words.png */; };
+		B490311F1C9DEFF3006ED90F /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B490311E1C9DEFF3006ED90F /* LoginPage.m */; };
+		B49031221C9DF021006ED90F /* Enterphonenumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031211C9DF021006ED90F /* Enterphonenumber.m */; };
+		B49031251C9DF032006ED90F /* Confirmphonenumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031241C9DF032006ED90F /* Confirmphonenumber.m */; };
+		B49031281C9DF042006ED90F /* ProfilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031271C9DF042006ED90F /* ProfilePage.m */; };
+		B49031401C9E0503006ED90F /* LinkCardPage.m in Sources */ = {isa = PBXBuildFile; fileRef = B490313F1C9E0503006ED90F /* LinkCardPage.m */; };
+		B49031431C9E051C006ED90F /* EnterAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031421C9E051C006ED90F /* EnterAmount.m */; };
+		B490314A1C9E186B006ED90F /* MutualPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031491C9E186B006ED90F /* MutualPortfolio.m */; };
+		B490314D1C9E187A006ED90F /* HedgePortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = B490314C1C9E187A006ED90F /* HedgePortfolio.m */; };
+		B49031501C9E188F006ED90F /* FinancialOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = B490314F1C9E188F006ED90F /* FinancialOffice.m */; };
+		B49031531C9E18B1006ED90F /* ViewPortfolios.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031521C9E18B1006ED90F /* ViewPortfolios.m */; };
+		B49031561C9E18C1006ED90F /* ViewReports.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031551C9E18C1006ED90F /* ViewReports.m */; };
+		B49031591C9E18D2006ED90F /* Cashout.m in Sources */ = {isa = PBXBuildFile; fileRef = B49031581C9E18D2006ED90F /* Cashout.m */; };
+		B4C1063D1D7DE65A00A010C7 /* 65767.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4C1063C1D7DE65A00A010C7 /* 65767.jpg */; };
+		B4C1063F1D7DEB2E00A010C7 /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C1063E1D7DEB2E00A010C7 /* Untitled-2.png */; };
+		B4C106411D7DEC9600A010C7 /* rate-star-button.svg in Resources */ = {isa = PBXBuildFile; fileRef = B4C106401D7DEC9600A010C7 /* rate-star-button.svg */; };
+		B4C106431D7DECB400A010C7 /* rate-star-button.svg in Resources */ = {isa = PBXBuildFile; fileRef = B4C106421D7DECB400A010C7 /* rate-star-button.svg */; };
+		B4C106451D7DECF700A010C7 /* rate-star-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C106441D7DECF700A010C7 /* rate-star-button.png */; };
+		B4C106471D7DF13300A010C7 /* Untitled-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B4C106461D7DF13300A010C7 /* Untitled-3.png */; };
+		B4EC7C3F1D7DF44100890F61 /* State-Street-Global-Advisors-SPDR-e1352833842610.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C3E1D7DF44100890F61 /* State-Street-Global-Advisors-SPDR-e1352833842610.jpg */; };
+		B4EC7C411D7DF51400890F61 /* 176401.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C401D7DF51400890F61 /* 176401.jpg */; };
+		B4EC7C431D7DF5AB00890F61 /* logo_ishares.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C421D7DF5AB00890F61 /* logo_ishares.png */; };
+		B4EC7C451D7DF67B00890F61 /* Screen Shot 2016-09-05 at 2.52.30 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C441D7DF67B00890F61 /* Screen Shot 2016-09-05 at 2.52.30 PM.png */; };
+		B4EC7C471D7DFCC200890F61 /* Facebook freinds.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C461D7DFCC200890F61 /* Facebook freinds.png */; };
+		B4EC7C491D7E014000890F61 /* Screen Shot 2016-09-05 at 3.37.08 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C481D7E014000890F61 /* Screen Shot 2016-09-05 at 3.37.08 PM.png */; };
+		B4EC7C4B1D7E014800890F61 /* Screen Shot 2016-09-05 at 3.36.28 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EC7C4A1D7E014800890F61 /* Screen Shot 2016-09-05 at 3.36.28 PM.png */; };
+		B4EC7C4E1D7E0C0A00890F61 /* LoginPage2.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EC7C4D1D7E0C0A00890F61 /* LoginPage2.m */; };
+		B4F0242E1D80663F00FDAED5 /* 1724012_10203124999750232_628264141897465409_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4F0242D1D80663F00FDAED5 /* 1724012_10203124999750232_628264141897465409_n.jpg */; };
+		B4F024301D80B7F900FDAED5 /* BankInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F0242F1D80B7F900FDAED5 /* BankInfo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4340E101C9B2C5900B4ED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4340DEE1C9B2C5900B4ED5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4340DF51C9B2C5900B4ED5B;
+			remoteInfo = GoInvest;
+		};
+		B4340E1B1C9B2C5900B4ED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4340DEE1C9B2C5900B4ED5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4340DF51C9B2C5900B4ED5B;
+			remoteInfo = GoInvest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4340DF61C9B2C5900B4ED5B /* GoInvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoInvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4340DFA1C9B2C5900B4ED5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4340DFC1C9B2C5900B4ED5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4340DFD1C9B2C5900B4ED5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4340DFF1C9B2C5900B4ED5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4340E001C9B2C5900B4ED5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4340E031C9B2C5900B4ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4340E051C9B2C5900B4ED5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4340E081C9B2C5900B4ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4340E0A1C9B2C5900B4ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4340E0F1C9B2C5900B4ED5B /* GoInvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoInvestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4340E131C9B2C5900B4ED5B /* GoInvestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoInvestTests.m; sourceTree = "<group>"; };
+		B4340E151C9B2C5900B4ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4340E1A1C9B2C5900B4ED5B /* GoInvestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoInvestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4340E1E1C9B2C5900B4ED5B /* GoInvestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoInvestUITests.m; sourceTree = "<group>"; };
+		B4340E201C9B2C5900B4ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B446D5B41D7D25C600EEAA99 /* Fiduty Logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fiduty Logo (1).png"; sourceTree = "<group>"; };
+		B446D5CA1D7D39DB00EEAA99 /* Risk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Risk.h; path = GoInvestUITests/Risk.h; sourceTree = SOURCE_ROOT; };
+		B446D5CB1D7D39DB00EEAA99 /* Risk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Risk.m; path = GoInvestUITests/Risk.m; sourceTree = SOURCE_ROOT; };
+		B446D5CD1D7D3F9000EEAA99 /* Fiduty Logo No words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fiduty Logo No words.png"; sourceTree = "<group>"; };
+		B490311D1C9DEFF3006ED90F /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginPage.h; path = ../LoginPage.h; sourceTree = "<group>"; };
+		B490311E1C9DEFF3006ED90F /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginPage.m; path = ../LoginPage.m; sourceTree = "<group>"; };
+		B49031201C9DF021006ED90F /* Enterphonenumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enterphonenumber.h; sourceTree = "<group>"; };
+		B49031211C9DF021006ED90F /* Enterphonenumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enterphonenumber.m; sourceTree = "<group>"; };
+		B49031231C9DF032006ED90F /* Confirmphonenumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Confirmphonenumber.h; sourceTree = "<group>"; };
+		B49031241C9DF032006ED90F /* Confirmphonenumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Confirmphonenumber.m; sourceTree = "<group>"; };
+		B49031261C9DF042006ED90F /* ProfilePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePage.h; sourceTree = "<group>"; };
+		B49031271C9DF042006ED90F /* ProfilePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePage.m; sourceTree = "<group>"; };
+		B490313E1C9E0503006ED90F /* LinkCardPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkCardPage.h; sourceTree = "<group>"; };
+		B490313F1C9E0503006ED90F /* LinkCardPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkCardPage.m; sourceTree = "<group>"; };
+		B49031411C9E051C006ED90F /* EnterAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAmount.h; sourceTree = "<group>"; };
+		B49031421C9E051C006ED90F /* EnterAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAmount.m; sourceTree = "<group>"; };
+		B49031481C9E186B006ED90F /* MutualPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutualPortfolio.h; sourceTree = "<group>"; };
+		B49031491C9E186B006ED90F /* MutualPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutualPortfolio.m; sourceTree = "<group>"; };
+		B490314B1C9E187A006ED90F /* HedgePortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HedgePortfolio.h; sourceTree = "<group>"; };
+		B490314C1C9E187A006ED90F /* HedgePortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HedgePortfolio.m; sourceTree = "<group>"; };
+		B490314E1C9E188F006ED90F /* FinancialOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialOffice.h; sourceTree = "<group>"; };
+		B490314F1C9E188F006ED90F /* FinancialOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialOffice.m; sourceTree = "<group>"; };
+		B49031511C9E18B1006ED90F /* ViewPortfolios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPortfolios.h; sourceTree = "<group>"; };
+		B49031521C9E18B1006ED90F /* ViewPortfolios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPortfolios.m; sourceTree = "<group>"; };
+		B49031541C9E18C1006ED90F /* ViewReports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReports.h; sourceTree = "<group>"; };
+		B49031551C9E18C1006ED90F /* ViewReports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReports.m; sourceTree = "<group>"; };
+		B49031571C9E18D1006ED90F /* Cashout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cashout.h; sourceTree = "<group>"; };
+		B49031581C9E18D2006ED90F /* Cashout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cashout.m; sourceTree = "<group>"; };
+		B4C1063C1D7DE65A00A010C7 /* 65767.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 65767.jpg; path = ../65767.jpg; sourceTree = "<group>"; };
+		B4C1063E1D7DEB2E00A010C7 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-2.png"; path = "../Untitled-2.png"; sourceTree = "<group>"; };
+		B4C106401D7DEC9600A010C7 /* rate-star-button.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "rate-star-button.svg"; sourceTree = "<group>"; };
+		B4C106421D7DECB400A010C7 /* rate-star-button.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "rate-star-button.svg"; path = "../rate-star-button.svg"; sourceTree = "<group>"; };
+		B4C106441D7DECF700A010C7 /* rate-star-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rate-star-button.png"; sourceTree = "<group>"; };
+		B4C106461D7DF13300A010C7 /* Untitled-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-3.png"; path = "../Untitled-3.png"; sourceTree = "<group>"; };
+		B4EC7C3E1D7DF44100890F61 /* State-Street-Global-Advisors-SPDR-e1352833842610.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "State-Street-Global-Advisors-SPDR-e1352833842610.jpg"; sourceTree = "<group>"; };
+		B4EC7C401D7DF51400890F61 /* 176401.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 176401.jpg; sourceTree = "<group>"; };
+		B4EC7C421D7DF5AB00890F61 /* logo_ishares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_ishares.png; path = ../logo_ishares.png; sourceTree = "<group>"; };
+		B4EC7C441D7DF67B00890F61 /* Screen Shot 2016-09-05 at 2.52.30 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-09-05 at 2.52.30 PM.png"; sourceTree = "<group>"; };
+		B4EC7C461D7DFCC200890F61 /* Facebook freinds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook freinds.png"; sourceTree = "<group>"; };
+		B4EC7C481D7E014000890F61 /* Screen Shot 2016-09-05 at 3.37.08 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-09-05 at 3.37.08 PM.png"; sourceTree = "<group>"; };
+		B4EC7C4A1D7E014800890F61 /* Screen Shot 2016-09-05 at 3.36.28 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-09-05 at 3.36.28 PM.png"; sourceTree = "<group>"; };
+		B4EC7C4C1D7E0C0A00890F61 /* LoginPage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage2.h; sourceTree = "<group>"; };
+		B4EC7C4D1D7E0C0A00890F61 /* LoginPage2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage2.m; sourceTree = "<group>"; };
+		B4F0242D1D80663F00FDAED5 /* 1724012_10203124999750232_628264141897465409_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1724012_10203124999750232_628264141897465409_n.jpg; sourceTree = "<group>"; };
+		B4F0242F1D80B7F900FDAED5 /* BankInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankInfo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4340DF31C9B2C5900B4ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E0C1C9B2C5900B4ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E171C9B2C5900B4ED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4340DED1C9B2C5900B4ED5B = {
+			isa = PBXGroup;
+			children = (
+				B4340DF81C9B2C5900B4ED5B /* GoInvest */,
+				B4340E121C9B2C5900B4ED5B /* GoInvestTests */,
+				B4340E1D1C9B2C5900B4ED5B /* GoInvestUITests */,
+				B4340DF71C9B2C5900B4ED5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4340DF71C9B2C5900B4ED5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4340DF61C9B2C5900B4ED5B /* GoInvest.app */,
+				B4340E0F1C9B2C5900B4ED5B /* GoInvestTests.xctest */,
+				B4340E1A1C9B2C5900B4ED5B /* GoInvestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4340DF81C9B2C5900B4ED5B /* GoInvest */ = {
+			isa = PBXGroup;
+			children = (
+				B4340DFC1C9B2C5900B4ED5B /* AppDelegate.h */,
+				B446D5CA1D7D39DB00EEAA99 /* Risk.h */,
+				B446D5CB1D7D39DB00EEAA99 /* Risk.m */,
+				B4340DFD1C9B2C5900B4ED5B /* AppDelegate.m */,
+				B4340E021C9B2C5900B4ED5B /* Main.storyboard */,
+				B4EC7C4C1D7E0C0A00890F61 /* LoginPage2.h */,
+				B4EC7C4D1D7E0C0A00890F61 /* LoginPage2.m */,
+				B490315A1C9E1926006ED90F /* Portfolio */,
+				B490315B1C9E1938006ED90F /* Cashout/View */,
+				B49031471C9E05D2006ED90F /* MoneyIn */,
+				B49031291C9DFCB9006ED90F /* Registration/Profile */,
+				B4340E051C9B2C5900B4ED5B /* Assets.xcassets */,
+				B4340E071C9B2C5900B4ED5B /* LaunchScreen.storyboard */,
+				B4340E0A1C9B2C5900B4ED5B /* Info.plist */,
+				B4340DF91C9B2C5900B4ED5B /* Supporting Files */,
+			);
+			path = GoInvest;
+			sourceTree = "<group>";
+		};
+		B4340DF91C9B2C5900B4ED5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F0242F1D80B7F900FDAED5 /* BankInfo.png */,
+				B4F0242D1D80663F00FDAED5 /* 1724012_10203124999750232_628264141897465409_n.jpg */,
+				B4EC7C4A1D7E014800890F61 /* Screen Shot 2016-09-05 at 3.36.28 PM.png */,
+				B4EC7C481D7E014000890F61 /* Screen Shot 2016-09-05 at 3.37.08 PM.png */,
+				B4EC7C441D7DF67B00890F61 /* Screen Shot 2016-09-05 at 2.52.30 PM.png */,
+				B4EC7C461D7DFCC200890F61 /* Facebook freinds.png */,
+				B4EC7C421D7DF5AB00890F61 /* logo_ishares.png */,
+				B4EC7C401D7DF51400890F61 /* 176401.jpg */,
+				B4C106461D7DF13300A010C7 /* Untitled-3.png */,
+				B4EC7C3E1D7DF44100890F61 /* State-Street-Global-Advisors-SPDR-e1352833842610.jpg */,
+				B4C106441D7DECF700A010C7 /* rate-star-button.png */,
+				B4C106421D7DECB400A010C7 /* rate-star-button.svg */,
+				B4C106401D7DEC9600A010C7 /* rate-star-button.svg */,
+				B4C1063E1D7DEB2E00A010C7 /* Untitled-2.png */,
+				B4C1063C1D7DE65A00A010C7 /* 65767.jpg */,
+				B446D5CD1D7D3F9000EEAA99 /* Fiduty Logo No words.png */,
+				B446D5B41D7D25C600EEAA99 /* Fiduty Logo (1).png */,
+				B4340DFA1C9B2C5900B4ED5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4340E121C9B2C5900B4ED5B /* GoInvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4340E131C9B2C5900B4ED5B /* GoInvestTests.m */,
+				B4340E151C9B2C5900B4ED5B /* Info.plist */,
+			);
+			path = GoInvestTests;
+			sourceTree = "<group>";
+		};
+		B4340E1D1C9B2C5900B4ED5B /* GoInvestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4340E1E1C9B2C5900B4ED5B /* GoInvestUITests.m */,
+				B4340E201C9B2C5900B4ED5B /* Info.plist */,
+			);
+			path = GoInvestUITests;
+			sourceTree = "<group>";
+		};
+		B49031291C9DFCB9006ED90F /* Registration/Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B490314E1C9E188F006ED90F /* FinancialOffice.h */,
+				B490314F1C9E188F006ED90F /* FinancialOffice.m */,
+				B490311D1C9DEFF3006ED90F /* LoginPage.h */,
+				B490311E1C9DEFF3006ED90F /* LoginPage.m */,
+				B49031201C9DF021006ED90F /* Enterphonenumber.h */,
+				B4340DFF1C9B2C5900B4ED5B /* ViewController.h */,
+				B4340E001C9B2C5900B4ED5B /* ViewController.m */,
+				B49031211C9DF021006ED90F /* Enterphonenumber.m */,
+				B49031231C9DF032006ED90F /* Confirmphonenumber.h */,
+				B49031241C9DF032006ED90F /* Confirmphonenumber.m */,
+				B49031261C9DF042006ED90F /* ProfilePage.h */,
+				B49031271C9DF042006ED90F /* ProfilePage.m */,
+			);
+			name = Registration/Profile;
+			sourceTree = "<group>";
+		};
+		B49031471C9E05D2006ED90F /* MoneyIn */ = {
+			isa = PBXGroup;
+			children = (
+				B490313E1C9E0503006ED90F /* LinkCardPage.h */,
+				B490313F1C9E0503006ED90F /* LinkCardPage.m */,
+				B49031411C9E051C006ED90F /* EnterAmount.h */,
+				B49031421C9E051C006ED90F /* EnterAmount.m */,
+			);
+			name = MoneyIn;
+			sourceTree = "<group>";
+		};
+		B490315A1C9E1926006ED90F /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				B49031481C9E186B006ED90F /* MutualPortfolio.h */,
+				B49031491C9E186B006ED90F /* MutualPortfolio.m */,
+				B490314B1C9E187A006ED90F /* HedgePortfolio.h */,
+				B490314C1C9E187A006ED90F /* HedgePortfolio.m */,
+			);
+			name = Portfolio;
+			sourceTree = "<group>";
+		};
+		B490315B1C9E1938006ED90F /* Cashout/View */ = {
+			isa = PBXGroup;
+			children = (
+				B49031511C9E18B1006ED90F /* ViewPortfolios.h */,
+				B49031521C9E18B1006ED90F /* ViewPortfolios.m */,
+				B49031541C9E18C1006ED90F /* ViewReports.h */,
+				B49031551C9E18C1006ED90F /* ViewReports.m */,
+				B49031571C9E18D1006ED90F /* Cashout.h */,
+				B49031581C9E18D2006ED90F /* Cashout.m */,
+			);
+			name = Cashout/View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4340DF51C9B2C5900B4ED5B /* GoInvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4340E231C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvest" */;
+			buildPhases = (
+				B4340DF21C9B2C5900B4ED5B /* Sources */,
+				B4340DF31C9B2C5900B4ED5B /* Frameworks */,
+				B4340DF41C9B2C5900B4ED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoInvest;
+			productName = GoInvest;
+			productReference = B4340DF61C9B2C5900B4ED5B /* GoInvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4340E0E1C9B2C5900B4ED5B /* GoInvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4340E261C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvestTests" */;
+			buildPhases = (
+				B4340E0B1C9B2C5900B4ED5B /* Sources */,
+				B4340E0C1C9B2C5900B4ED5B /* Frameworks */,
+				B4340E0D1C9B2C5900B4ED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4340E111C9B2C5900B4ED5B /* PBXTargetDependency */,
+			);
+			name = GoInvestTests;
+			productName = GoInvestTests;
+			productReference = B4340E0F1C9B2C5900B4ED5B /* GoInvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4340E191C9B2C5900B4ED5B /* GoInvestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4340E291C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvestUITests" */;
+			buildPhases = (
+				B4340E161C9B2C5900B4ED5B /* Sources */,
+				B4340E171C9B2C5900B4ED5B /* Frameworks */,
+				B4340E181C9B2C5900B4ED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4340E1C1C9B2C5900B4ED5B /* PBXTargetDependency */,
+			);
+			name = GoInvestUITests;
+			productName = GoInvestUITests;
+			productReference = B4340E1A1C9B2C5900B4ED5B /* GoInvestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4340DEE1C9B2C5900B4ED5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "General Robotics Inc";
+				TargetAttributes = {
+					B4340DF51C9B2C5900B4ED5B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WK95CZLA3D;
+					};
+					B4340E0E1C9B2C5900B4ED5B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WK95CZLA3D;
+						TestTargetID = B4340DF51C9B2C5900B4ED5B;
+					};
+					B4340E191C9B2C5900B4ED5B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WK95CZLA3D;
+						TestTargetID = B4340DF51C9B2C5900B4ED5B;
+					};
+				};
+			};
+			buildConfigurationList = B4340DF11C9B2C5900B4ED5B /* Build configuration list for PBXProject "GoInvest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4340DED1C9B2C5900B4ED5B;
+			productRefGroup = B4340DF71C9B2C5900B4ED5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4340DF51C9B2C5900B4ED5B /* GoInvest */,
+				B4340E0E1C9B2C5900B4ED5B /* GoInvestTests */,
+				B4340E191C9B2C5900B4ED5B /* GoInvestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4340DF41C9B2C5900B4ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4340E091C9B2C5900B4ED5B /* LaunchScreen.storyboard in Resources */,
+				B4C106451D7DECF700A010C7 /* rate-star-button.png in Resources */,
+				B4C1063D1D7DE65A00A010C7 /* 65767.jpg in Resources */,
+				B4340E061C9B2C5900B4ED5B /* Assets.xcassets in Resources */,
+				B4EC7C431D7DF5AB00890F61 /* logo_ishares.png in Resources */,
+				B4C106431D7DECB400A010C7 /* rate-star-button.svg in Resources */,
+				B4EC7C451D7DF67B00890F61 /* Screen Shot 2016-09-05 at 2.52.30 PM.png in Resources */,
+				B4C106471D7DF13300A010C7 /* Untitled-3.png in Resources */,
+				B446D5B51D7D25C600EEAA99 /* Fiduty Logo (1).png in Resources */,
+				B446D5CE1D7D3F9000EEAA99 /* Fiduty Logo No words.png in Resources */,
+				B4F0242E1D80663F00FDAED5 /* 1724012_10203124999750232_628264141897465409_n.jpg in Resources */,
+				B4F024301D80B7F900FDAED5 /* BankInfo.png in Resources */,
+				B4EC7C4B1D7E014800890F61 /* Screen Shot 2016-09-05 at 3.36.28 PM.png in Resources */,
+				B4EC7C3F1D7DF44100890F61 /* State-Street-Global-Advisors-SPDR-e1352833842610.jpg in Resources */,
+				B4C1063F1D7DEB2E00A010C7 /* Untitled-2.png in Resources */,
+				B4EC7C471D7DFCC200890F61 /* Facebook freinds.png in Resources */,
+				B4C106411D7DEC9600A010C7 /* rate-star-button.svg in Resources */,
+				B4EC7C491D7E014000890F61 /* Screen Shot 2016-09-05 at 3.37.08 PM.png in Resources */,
+				B4340E041C9B2C5900B4ED5B /* Main.storyboard in Resources */,
+				B4EC7C411D7DF51400890F61 /* 176401.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E0D1C9B2C5900B4ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E181C9B2C5900B4ED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4340DF21C9B2C5900B4ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49031561C9E18C1006ED90F /* ViewReports.m in Sources */,
+				B490314A1C9E186B006ED90F /* MutualPortfolio.m in Sources */,
+				B49031221C9DF021006ED90F /* Enterphonenumber.m in Sources */,
+				B490311F1C9DEFF3006ED90F /* LoginPage.m in Sources */,
+				B49031281C9DF042006ED90F /* ProfilePage.m in Sources */,
+				B49031501C9E188F006ED90F /* FinancialOffice.m in Sources */,
+				B4340E011C9B2C5900B4ED5B /* ViewController.m in Sources */,
+				B490314D1C9E187A006ED90F /* HedgePortfolio.m in Sources */,
+				B4340DFE1C9B2C5900B4ED5B /* AppDelegate.m in Sources */,
+				B49031251C9DF032006ED90F /* Confirmphonenumber.m in Sources */,
+				B49031591C9E18D2006ED90F /* Cashout.m in Sources */,
+				B49031401C9E0503006ED90F /* LinkCardPage.m in Sources */,
+				B49031531C9E18B1006ED90F /* ViewPortfolios.m in Sources */,
+				B49031431C9E051C006ED90F /* EnterAmount.m in Sources */,
+				B4340DFB1C9B2C5900B4ED5B /* main.m in Sources */,
+				B4EC7C4E1D7E0C0A00890F61 /* LoginPage2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E0B1C9B2C5900B4ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4340E141C9B2C5900B4ED5B /* GoInvestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4340E161C9B2C5900B4ED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B446D5CC1D7D39DB00EEAA99 /* Risk.m in Sources */,
+				B4340E1F1C9B2C5900B4ED5B /* GoInvestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4340E111C9B2C5900B4ED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4340DF51C9B2C5900B4ED5B /* GoInvest */;
+			targetProxy = B4340E101C9B2C5900B4ED5B /* PBXContainerItemProxy */;
+		};
+		B4340E1C1C9B2C5900B4ED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4340DF51C9B2C5900B4ED5B /* GoInvest */;
+			targetProxy = B4340E1B1C9B2C5900B4ED5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4340E021C9B2C5900B4ED5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4340E031C9B2C5900B4ED5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4340E071C9B2C5900B4ED5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4340E081C9B2C5900B4ED5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4340E211C9B2C5900B4ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4340E221C9B2C5900B4ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4340E241C9B2C5900B4ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoInvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4340E251C9B2C5900B4ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoInvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4340E271C9B2C5900B4ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoInvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoInvest.app/GoInvest";
+			};
+			name = Debug;
+		};
+		B4340E281C9B2C5900B4ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoInvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoInvest.app/GoInvest";
+			};
+			name = Release;
+		};
+		B4340E2A1C9B2C5900B4ED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoInvestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoInvest;
+			};
+			name = Debug;
+		};
+		B4340E2B1C9B2C5900B4ED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoInvestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gr.GoInvestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoInvest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4340DF11C9B2C5900B4ED5B /* Build configuration list for PBXProject "GoInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4340E211C9B2C5900B4ED5B /* Debug */,
+				B4340E221C9B2C5900B4ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4340E231C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4340E241C9B2C5900B4ED5B /* Debug */,
+				B4340E251C9B2C5900B4ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4340E261C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4340E271C9B2C5900B4ED5B /* Debug */,
+				B4340E281C9B2C5900B4ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4340E291C9B2C5900B4ED5B /* Build configuration list for PBXNativeTarget "GoInvestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4340E2A1C9B2C5900B4ED5B /* Debug */,
+				B4340E2B1C9B2C5900B4ED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4340DEE1C9B2C5900B4ED5B /* Project object */;
+}
